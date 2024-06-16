@@ -19,7 +19,7 @@ prime_number_flag = True
 for i in range(2,int(number**0.5) + 1):
     dev = number % i
     if dev == 0:
-        print(f"{number} is NOT a prime number. 30001 is NOT prime number. it is devisible by {i}")
+        print(f"{number} is NOT a prime number. it is devisible by {i}")
         prime_number_flag = False
         break
 
